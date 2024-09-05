@@ -16,12 +16,12 @@ class Film():
         return self.liczba_wypozyczen
 
 
-    def set_liczba_wypozyczen(self):
+    def inkrementacja(self):
         self.liczba_wypozyczen += 1
 
 if __name__ == "__main__":
     filmy = Film()
-    # Wyświetlenie początkowych wartości pól
+    filmy.set_tytul("Rambo")
     print("Początkowy tytuł filmu:", filmy.get_tylul())
     print("Początkowa liczba wypożyczeń:", filmy.get_liczba_wypozyczen())
 
@@ -32,5 +32,5 @@ if __name__ == "__main__":
     print("Pobrany tytuł filmu:", aktualny_tytul)
 
     print("Liczba wypożyczeń przed inkrementacją:", filmy.get_liczba_wypozyczen())
-    filmy.set_liczba_wypozyczen()
+    filmy.inkrementacja()
     print("Liczba wypożyczeń po inkrementacji:", filmy.get_liczba_wypozyczen())
