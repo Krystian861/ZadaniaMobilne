@@ -1,1 +1,3 @@
-
+Znajdą się tutaj zadania
+- Aplikacje konsolowe 3 (2_23)
+- Aplikacje konsolowe 2 (2_22)
